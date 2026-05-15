@@ -28,3 +28,14 @@ pip install pyyaml jinja2
 
 # 4. Generate the resume
 python generate.py
+
+```
+### Github.io resume hosting
+To host your resume under your own github.io URL:
+After cloning or forking the repo:
+1. Goto settings (top tab)
+2. Goto Pages (left menu)
+3. Set the "Branch" to main and then save
+
+You should now have the resume available at https://yourUsername.github.io/resume/
+
