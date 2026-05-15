@@ -6,53 +6,19 @@
     <title>Cameron Paulk - Resume</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-        body {
-            font-family: 'Inter', Arial, sans-serif;
-            margin: 0;
-            padding: 40px;
-            line-height: 1.45;
-            color: #222;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 30px;
-        }
+        body { font-family: 'Inter', Arial, sans-serif; margin: 0; padding: 40px; line-height: 1.45; color: #222; max-width: 1000px; margin: 0 auto; }
+        .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; }
         .header-left h1 { margin: 0 0 5px 0; font-size: 2.3em; }
         .header-left .title { color: #0d6efd; font-weight: 500; }
-        .avatar {
-            width: 130px;
-            height: 130px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid #0d6efd;
-        }
+        .avatar { width: 130px; height: 130px; border-radius: 50%; object-fit: cover; border: 5px solid #0d6efd; }
         .contact { margin: 15px 0 25px; font-size: 1.1em; }
-        h2 {
-            color: #0d6efd;
-            border-bottom: 3px solid #0d6efd;
-            padding-bottom: 8px;
-            margin-top: 40px;
-        }
+        h2 { color: #0d6efd; border-bottom: 3px solid #0d6efd; padding-bottom: 8px; margin-top: 40px; }
         ul { padding-left: 22px; }
         li { margin-bottom: 9px; }
         .section { margin-bottom: 35px; }
-        
-        /* Centered footer */
-        .footer {
-            text-align: center;
-            margin-top: 70px;
-            font-size: 0.85em;
-            color: #666;
-        }
-        
-        @media print {
-            body { padding: 30px; }
-            .no-print { display: none; }
-        }
+        .project { margin-bottom: 20px; }
+        .footer { text-align: center; margin-top: 70px; font-size: 0.85em; color: #666; }
+        @media print { body { padding: 30px; } .no-print { display: none; } }
     </style>
 </head>
 <body>
@@ -66,9 +32,7 @@
                 <a href="https://github.com/camwin">GitHub</a>
             </div>
         </div>
-        
         <img src="profile.png" alt="Cameron Paulk" class="avatar">
-        
     </div>
 
     <h2>Career Profile</h2>
@@ -81,154 +45,89 @@ Proven leader in mentoring teams and driving strategic infrastructure initiative
     <h2>Experience</h2>
     
     <div class="section">
-        <strong>Network Automation Manager</strong> — University of South Alabama (June 2024 - Present)
+        <strong>Network Manager</strong> — University of South Alabama (June 2024 - Present)
         <ul>
-            
-            <li>Oversee network operations for 10,000+ devices across main campus, branch campuses, and three hospitals, supporting over 15,000 daily clients with 99.9% uptime</li>
-            
-            <li>Architected a self-healing network using Python automation, cutting maintenance time and boosting campus-wide reliability</li>
-            
-            <li>Led deployment of Cisco 9800 Wireless LAN Controllers and 2,000 access points, enabling WiFi 6 and initiating WiFi 6E transitions</li>
-            
-            <li>Reduced hardware costs by $350,000+ through strategic adoption of UfiSpace whitebox routers with OcNOS</li>
-            
-            <li>Replaced commercial off-the-shelf network monitoring solution with free open-source software, saving $12,000 per year</li>
-            
-            <li>Implemented EBGP/VXLAN for seamless Layer 2 over Layer 3 connectivity</li>
-            
-            <li>Deployed Netbox IPAM in Docker, LibreNMS on Red Hat Linux 9, and Notion Cloud</li>
-            
-            <li>Implemented ChatOps network and automation alerts</li>
-            
-            <li>Automated migration of thousands of ACLs, Objects, and NAT rules from Cisco ASA to FTD firewalls using FireREST Python library</li>
-            
-            <li>Deployed Ansible to automate basic network tasks and synchronize from desired state in Netbox</li>
-            
-            <li>Deployed IPv6 in dual-stack configuration using DHCPv6-PD and DHCPv6 Stateful addressing</li>
-            
-            <li>Deployed netflow and sflow monitoring with Akvorado, saving $6,000+ per year</li>
-            
+            <li>Oversee network operations for 10,000+ devices across main campus, branch campuses, and three hospitals, supporting over 15,000 daily clients with 99.9% uptime</li><li>Architected a self-healing network using Python automation, cutting maintenance time and boosting campus-wide reliability</li><li>Led deployment of Cisco 9800 Wireless LAN Controllers and 2,000 access points, enabling WiFi 6 and initiating WiFi 6E transitions</li><li>Reduced hardware costs by $350,000+ through strategic adoption of UfiSpace whitebox routers with OcNOS</li><li>Replaced commercial off-the-shelf network monitoring solution with free open-source software, saving $12,000 per year</li><li>Implemented EBGP/VXLAN for seamless Layer 2 over Layer 3 connectivity</li><li>Deployed Netbox IPAM in Docker, LibreNMS on Red Hat Linux 9, and Notion Cloud</li><li>Implemented ChatOps network and automation alerts</li><li>Automated migration of thousands of ACLs, Objects, and NAT rules from Cisco ASA to FTD firewalls using FireREST Python library</li><li>Deployed Ansible to automate basic network tasks and synchronize from desired state in Netbox</li><li>Deployed IPv6 in dual-stack configuration using DHCPv6-PD and DHCPv6 Stateful addressing</li><li>Deployed netflow and sflow monitoring with Akvorado, saving $6,000+ per year</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Reliability Engineer</strong> — Riot Games (August 2023 - May 2024)
         <ul>
-            
-            <li>Ensured 99.99% WAN uptime for global gaming infrastructure by optimizing Cisco NCS5500 platforms with 100% code-driven configurations</li>
-            
-            <li>Automated circuit maintenance, IPAM, and alerting using Nautobot, Python, Jinja, and YAML</li>
-            
-            <li>Worked with Grafana and Kibana dashboards to troubleshoot live user traffic</li>
-            
-            <li>Streamlined operations via GitHub version-controlled configurations</li>
-            
+            <li>Ensured 99.99% WAN uptime for global gaming infrastructure by optimizing Cisco NCS5500 platforms with 100% code-driven configurations</li><li>Automated circuit maintenance, IPAM, and alerting using Nautobot, Python, Jinja, and YAML</li><li>Worked with Grafana and Kibana dashboards to troubleshoot live user traffic</li><li>Streamlined operations via GitHub version-controlled configurations</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Consulting Engineer</strong> — KeyBridge Technologies, Inc (April 2023 - September 2023)
         <ul>
-            
-            <li>Delivered advanced IPv6 training for the National Institutes of Health, ensuring compliance with federal mandate M-21-07</li>
-            
-            <li>Designed scalable IPv6 addressing and routing strategies</li>
-            
+            <li>Delivered advanced IPv6 training for the National Institutes of Health, ensuring compliance with federal mandate M-21-07</li><li>Designed scalable IPv6 addressing and routing strategies</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Consulting Engineer</strong> — Guidehouse (October 2022 - February 2023)
         <ul>
-            
-            <li>Evaluated ISP network designs for NTIA’s Middle Mile Broadband Infrastructure Program</li>
-            
-            <li>Analyzed financial forecasts and assigned merit-based scores to proposals</li>
-            
+            <li>Evaluated ISP network designs for NTIA’s Middle Mile Broadband Infrastructure Program</li><li>Analyzed financial forecasts and assigned merit-based scores to proposals</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Operations Engineer</strong> — SpaceX (November 2020 - December 2021)
         <ul>
-            
-            <li>Led Starlink Network Operations Center shift teams, achieving 99.9% global network uptime</li>
-            
-            <li>Automated network tasks with Python and Netbox</li>
-            
-            <li>Leveraged Grafana and Kibana for time-series data analysis</li>
-            
-            <li>Mentored junior engineers</li>
-            
+            <li>Led Starlink Network Operations Center shift teams, achieving 99.9% global network uptime</li><li>Automated network tasks with Python and Netbox</li><li>Leveraged Grafana and Kibana for time-series data analysis</li><li>Mentored junior engineers</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Consulting Engineer</strong> — Deloitte (August 2019 - August 2020)
         <ul>
-            
-            <li>Spearheaded IPv6 adoption across Deloitte’s global network</li>
-            
-            <li>Optimized OSPF, EIGRP, BGP, and IPSEC tunnels</li>
-            
+            <li>Spearheaded IPv6 adoption across Deloitte’s global network</li><li>Optimized OSPF, EIGRP, BGP, and IPSEC tunnels</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Engineer</strong> — Uniti Fiber (May 2018 - December 2018)
         <ul>
-            
-            <li>Maintained Cisco ASR9000 IP backbone for a regional ISP</li>
-            
-            <li>Automated BGP security with Python</li>
-            
-            <li>Deployed Cisco ASR and Juniper MX routers</li>
-            
+            <li>Maintained Cisco ASR9000 IP backbone for a regional ISP</li><li>Automated BGP security with Python</li><li>Deployed Cisco ASR and Juniper MX routers</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Operations Center Engineer</strong> — University of Maryland (August 2016 - May 2018)
         <ul>
-            
-            <li>Resolved tier-3 tickets for a multi-building campus network</li>
-            
-            <li>Deployed Cisco ASR 9904 routers and Big Switch SDN controllers (100G)</li>
-            
+            <li>Resolved tier-3 tickets for a multi-building campus network</li><li>Deployed Cisco ASR 9904 routers and Big Switch SDN controllers (100G)</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Network Engineer</strong> — Uniti Fiber (June 2014 - August 2016)
         <ul>
-            
-            <li>Deployed, replaced, and upgraded Cisco ASR 9000 series routers</li>
-            
-            <li>Implemented IPv6 routing across DWDM and GPON networks</li>
-            
+            <li>Deployed, replaced, and upgraded Cisco ASR 9000 series routers</li><li>Implemented IPv6 routing across DWDM and GPON networks</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Intern</strong> — Mobile County, Alabama (September 2013 - May 2014)
         <ul>
-            
-            <li>Configured and optimized Cisco switches</li>
-            
-            <li>Implemented TACACS+ for secure device authentication</li>
-            
+            <li>Configured and optimized Cisco switches</li><li>Implemented TACACS+ for secure device authentication</li>
         </ul>
     </div>
     
     <div class="section">
         <strong>Computer Technician II</strong> — Riviera Utilities (August 2010 - June 2013)
         <ul>
-            
-            <li>Managed 200+ desktops/laptops using Dell KACE</li>
-            
-            <li>Led wireless network deployments and inventory projects</li>
-            
+            <li>Managed 200+ desktops/laptops using Dell KACE</li><li>Led wireless network deployments and inventory projects</li>
         </ul>
+    </div>
+    
+
+    <h2>Projects</h2>
+    
+    <div class="project">
+        <strong>Resume</strong><br>
+        Simple Python + YAML resume builder. Generates clean, modern HTML resumes and perfect PDFs. Fully self-hosted and customizable. Built as a personal tool to replace bloated resume builders.
+        <br><a href="https://github.com/camwin/resume">View Project →</a>
     </div>
     
 
@@ -254,32 +153,10 @@ Proven leader in mentoring teams and driving strategic infrastructure initiative
     
 
     <h2>Certifications</h2>
-    <ul>
-        
-        <li>Certified Wireless Network Administrator (CWNA)</li>
-        
-    </ul>
+    <ul><li>Certified Wireless Network Administrator (CWNA)</li></ul>
 
     <h2>Skills</h2>
-    <ul>
-        
-        <li>Python Automation</li>
-        
-        <li>Ansible & Nautobot</li>
-        
-        <li>Cisco & Juniper Routing/Switching</li>
-        
-        <li>IPv6 Deployment</li>
-        
-        <li>WiFi 6/6E/7 & Cisco 9800</li>
-        
-        <li>Docker, Netbox, LibreNMS, Akvorado</li>
-        
-        <li>Git & Infrastructure as Code</li>
-        
-        <li>EBGP / VXLAN / ChatOps</li>
-        
-    </ul>
+    <ul><li>Python Automation</li><li>Ansible & Nautobot</li><li>Cisco & Juniper Routing/Switching</li><li>IPv6 Deployment</li><li>WiFi 6/6E/7 & Cisco 9800</li><li>Docker, Netbox, LibreNMS, Akvorado</li><li>Git & Infrastructure as Code</li><li>EBGP / VXLAN / ChatOps</li></ul>
 
     <div class="footer no-print">
         Generated 2026 • Simple Python + YAML Resume Tool
