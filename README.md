@@ -1,10 +1,9 @@
 # ResumeGen
 
-**Simple. No bullshit. Just YAML + Python → Beautiful Resume.**
+**YAML + Python = Beautiful Resume.**
 
 A minimal, self-hosted resume builder that turns a single `resume.yml` file into a clean, modern, print-perfect HTML resume (and PDF).
 
-Built because every existing resume tool was bloated, full of AI spam, or had broken LinkedIn/PDF imports.
 
 ### Features
 - One YAML file = your entire resume
