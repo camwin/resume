@@ -131,9 +131,9 @@ education:
     extra: Member, Golf Team
 
 projects:
-  - title: ResumeGen
-    description: Simple, no-bullshit Python + YAML resume builder. Generates clean, modern HTML resumes and perfect PDFs. Fully self-hosted and customizable. Built as a personal tool to replace bloated resume builders.
-    link: https://github.com/camwin/resumegen   # will be live after we push
+  - title: Resume
+    description: Simple Python + YAML resume builder. Generates clean, modern HTML resumes and perfect PDFs. Fully self-hosted and customizable. Built as a personal tool to replace bloated resume builders.
+    link: https://github.com/camwin/resume   # will be live after we push
 
 certifications:
   - Certified Wireless Network Administrator (CWNA)
