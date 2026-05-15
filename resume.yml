@@ -1,0 +1,149 @@
+name: Cameron Paulk
+title: Network Manager @ University of South Alabama | MS Candidate
+location: Fairhope, Alabama, United States
+email: cameron.paulk@gmail.com
+phone: 251-279-0796
+linkedin: cameron-paulk
+github: camwin
+avatar: profile.png   # ← put your photo here (see instructions below)
+
+summary: |
+  Senior Network Engineer | CWNA | Automation & IPv6 Specialist. 
+  Over 16 years of experience designing, optimizing, and securing enterprise and ISP networks. 
+  Expert in Python automation, WiFi 6/6E/7, and IPv6 deployments, delivering 99.99% uptime and $100,000+ in cost savings. 
+  Proven leader in mentoring teams and driving strategic infrastructure initiatives.
+
+experience:
+  - role: Network Automation Manager
+    company: University of South Alabama
+    dates: June 2024 - Present
+    location: Mobile, AL
+    bullets:
+      - Oversee network operations for 10,000+ devices across main campus, branch campuses, and three hospitals, supporting over 15,000 daily clients with 99.9% uptime
+      - Architected a self-healing network using Python automation, cutting maintenance time and boosting campus-wide reliability
+      - Led deployment of Cisco 9800 Wireless LAN Controllers and 2,000 access points, enabling WiFi 6 and initiating WiFi 6E transitions
+      - Reduced hardware costs by $350,000+ through strategic adoption of UfiSpace whitebox routers with OcNOS
+      - Replaced commercial off-the-shelf network monitoring solution with free open-source software, saving $12,000 per year
+      - Implemented EBGP/VXLAN for seamless Layer 2 over Layer 3 connectivity
+      - Deployed Netbox IPAM in Docker, LibreNMS on Red Hat Linux 9, and Notion Cloud
+      - Implemented ChatOps network and automation alerts
+      - Automated migration of thousands of ACLs, Objects, and NAT rules from Cisco ASA to FTD firewalls using FireREST Python library
+      - Deployed Ansible to automate basic network tasks and synchronize from desired state in Netbox
+      - Deployed IPv6 in dual-stack configuration using DHCPv6-PD and DHCPv6 Stateful addressing
+      - Deployed netflow and sflow monitoring with Akvorado, saving $6,000+ per year
+
+  # (the rest of your roles are already in the previous version I sent — they are all included below for completeness)
+  - role: Network Reliability Engineer
+    company: Riot Games
+    dates: August 2023 - May 2024
+    location: Remote
+    bullets:
+      - Ensured 99.99% WAN uptime for global gaming infrastructure by optimizing Cisco NCS5500 platforms with 100% code-driven configurations
+      - Automated circuit maintenance, IPAM, and alerting using Nautobot, Python, Jinja, and YAML
+      - Worked with Grafana and Kibana dashboards to troubleshoot live user traffic
+      - Streamlined operations via GitHub version-controlled configurations
+
+  - role: Network Consulting Engineer
+    company: KeyBridge Technologies, Inc
+    dates: April 2023 - September 2023
+    location: Remote
+    bullets:
+      - Delivered advanced IPv6 training for the National Institutes of Health, ensuring compliance with federal mandate M-21-07
+      - Designed scalable IPv6 addressing and routing strategies
+
+  - role: Network Consulting Engineer
+    company: Guidehouse
+    dates: October 2022 - February 2023
+    location: Remote
+    bullets:
+      - Evaluated ISP network designs for NTIA’s Middle Mile Broadband Infrastructure Program
+      - Analyzed financial forecasts and assigned merit-based scores to proposals
+
+  - role: Network Operations Engineer
+    company: SpaceX
+    dates: November 2020 - December 2021
+    location: Redmond, WA
+    bullets:
+      - Led Starlink Network Operations Center shift teams, achieving 99.9% global network uptime
+      - Automated network tasks with Python and Netbox
+      - Leveraged Grafana and Kibana for time-series data analysis
+      - Mentored junior engineers
+
+  - role: Network Consulting Engineer
+    company: Deloitte
+    dates: August 2019 - August 2020
+    location: Glen Mills, PA
+    bullets:
+      - Spearheaded IPv6 adoption across Deloitte’s global network
+      - Optimized OSPF, EIGRP, BGP, and IPSEC tunnels
+
+  - role: Network Engineer
+    company: Uniti Fiber
+    dates: May 2018 - December 2018
+    location: Mobile, AL
+    bullets:
+      - Maintained Cisco ASR9000 IP backbone for a regional ISP
+      - Automated BGP security with Python
+      - Deployed Cisco ASR and Juniper MX routers
+
+  - role: Network Operations Center Engineer
+    company: University of Maryland
+    dates: August 2016 - May 2018
+    location: College Park, MD
+    bullets:
+      - Resolved tier-3 tickets for a multi-building campus network
+      - Deployed Cisco ASR 9904 routers and Big Switch SDN controllers (100G)
+
+  - role: Network Engineer
+    company: Uniti Fiber
+    dates: June 2014 - August 2016
+    location: Mobile, AL
+    bullets:
+      - Deployed, replaced, and upgraded Cisco ASR 9000 series routers
+      - Implemented IPv6 routing across DWDM and GPON networks
+
+  - role: Intern
+    company: Mobile County, Alabama
+    dates: September 2013 - May 2014
+    location: Mobile, AL
+    bullets:
+      - Configured and optimized Cisco switches
+      - Implemented TACACS+ for secure device authentication
+
+  - role: Computer Technician II
+    company: Riviera Utilities
+    dates: August 2010 - June 2013
+    location: Foley, AL
+    bullets:
+      - Managed 200+ desktops/laptops using Dell KACE
+      - Led wireless network deployments and inventory projects
+
+education:
+  - degree: Master of Science - MS, Instructional Design and Development
+    school: University of South Alabama
+    dates: May 2025 - December 2028
+  - degree: Bachelor’s Degree, Information Technology, Magna Cum Laude
+    school: University of South Alabama
+    dates: 2013 - 2015
+  - degree: Associate's Degree, Network Administration
+    school: James H Faulkner State Community College
+    dates: 2006 - 2009
+    extra: Member, Golf Team
+
+projects:
+  - title: ResumeGen
+    description: Simple, no-bullshit Python + YAML resume builder. Generates clean, modern HTML resumes and perfect PDFs. Fully self-hosted and customizable. Built as a personal tool to replace bloated resume builders.
+    link: https://github.com/camwin/resumegen   # will be live after we push
+
+certifications:
+  - Certified Wireless Network Administrator (CWNA)
+
+skills:
+  - Python Automation
+  - Ansible & Nautobot
+  - Cisco & Juniper Routing/Switching
+  - IPv6 Deployment
+  - WiFi 6/6E/7 & Cisco 9800
+  - Docker, Netbox, LibreNMS, Akvorado
+  - Git & Infrastructure as Code
+  - EBGP / VXLAN / ChatOps
