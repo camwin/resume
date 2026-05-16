@@ -64,7 +64,7 @@ experience:
     dates: November 2020 - December 2021
     location: Redmond, WA
     bullets:
-      - Led Starlink Network Operations Center shift teams, achieving 99.9% global network uptime
+      - Led Starlink Network Operations Center shift teams and implemented network changes 
       - Automated network tasks with Python and Netbox
       - Leveraged Grafana and Kibana for time-series data analysis
       - Mentored junior engineers
