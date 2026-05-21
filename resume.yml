@@ -1,78 +1,50 @@
-name: Cameron Paulk
-title: Network Manager @ University of South Alabama | MS Candidate
-location: Fairhope, Alabama, United States
-email: cameron.paulk@gmail.com
-phone: 251-279-0796
-linkedin: cameron-paulk
-github: camwin
+name: John Doe
+title: Senior Software Engineer
+location: San Francisco, California, United States
+email: john.doe@example.com
+phone: 555-010-9988
+linkedin: johndoe
+github: johndoe
 avatar: profile.png
 
 summary: |
-  Senior Network Engineer & NetDevOps Leader with 16+ years in enterprise, ISP, and hybrid cloud networks. Expert in Python/Ansible/Terraform IaC, WiFi 6/6E/7, IPv6, EBGP/VXLAN, and AWS + Azure networking. Delivered 99.99% uptime and $400k+ savings through automation and modernization.
+  Results-driven Senior Software Engineer with over 10 years of experience in designing, developing, and scaling distributed systems. Expert in Python, Go, and cloud-native architecture. Proven track record of improving system performance and leading cross-functional teams to deliver high-quality software solutions.
 
 experience:
-  - role: Network Manager
-    company: University of South Alabama
-    dates: June 2024 - Present
-    location: Mobile, AL
+  - role: Senior Software Engineer
+    company: Tech Giant Corp
+    dates: January 2020 - Present
+    location: Mountain View, CA
     bullets:
-      - Spearheaded hybrid cloud migration to AWS and Azure using Terraform IaC (VPCs, VNets, security groups, route tables, Site-to-Site VPN + Direct Connect)
-      - Developed reusable Terraform modules mirroring on-prem EBGP/VXLAN fabrics; integrated with Netbox + Ansible, cutting provisioning time 70%+
-      - Oversee 10k+ devices / 15k+ daily users with 99.9% uptime; architected Python self-healing automation, led WiFi 6/6E deployment (Cisco 9800 + 2,000 APs), and delivered $350k+ hardware + $18k/year monitoring savings
+      - Architected and implemented a microservices-based backend that handles 1M+ concurrent requests per second.
+      - Led a team of 10 engineers in migrating legacy infrastructure to AWS, reducing operational costs by 30%.
+      - Optimized database queries and caching strategies, resulting in a 50% reduction in API latency.
 
-  - role: Network Reliability Engineer
-    company: Riot Games
-    dates: August 2023 - May 2024
-    location: Remote
+  - role: Software Engineer
+    company: InnovateSoft
+    dates: June 2015 - December 2019
+    location: Austin, TX
     bullets:
-      - Delivered 99.99% WAN uptime for global gaming infrastructure via 100% code-driven Cisco NCS5500 optimization
-
-  - role: Senior Network Consulting Engineer
-    company: Various Clients (Deloitte • KeyBridge • Guidehouse)
-    dates: August 2019 - September 2023
-    location: Remote / Various
-    bullets:
-      - Led global IPv6 adoption and training for Deloitte and NIH (M-21-07); evaluated ISP designs for NTIA Middle Mile program
-
-  - role: Network Operations Engineer
-    company: SpaceX (Starlink)
-    dates: November 2020 - December 2021
-    location: Redmond, WA
-    bullets:
-      - Led NOC shift teams supporting global Starlink network with 99.9% uptime
-
-  - role: Early Career
-    company: University of Maryland • Uniti Fiber • Mobile County • Riviera Utilities
-    dates: 2010 - 2018
-    location: Various
-    bullets:
-      - Deployed Cisco ASR routers, SDN controllers, IPv6 routing, TACACS+, and wireless networks across campus/ISP environments
+      - Developed and maintained core features for a popular B2B SaaS platform using React and Node.js.
+      - Automated CI/CD pipelines using Jenkins and Docker, increasing deployment frequency by 40%.
+      - Collaborated with product managers to define requirements and deliver features on schedule.
 
 education:
-  - degree: MS, Instructional Design and Development (In Progress)
-    school: University of South Alabama
-    dates: 2025 - 2028
-  - degree: BS, Information Technology, Magna Cum Laude
-    school: University of South Alabama
+  - degree: BS, Computer Science
+    school: Stanford University
     dates: 2013 - 2015
 
 certifications:
-  - Certified Wireless Network Administrator (CWNA)
-  - AWS Certified Cloud Practitioner
-  - "Microsoft Certified: Azure Fundamentals (AZ-900)"
+  - AWS Certified Solutions Architect – Professional
+  - Google Professional Cloud Architect
 
 projects:
-  - title: YAML Resume Builder
-    description: Custom Python + YAML tool that generates clean, ATS-friendly HTML and PDF resumes.
-    link: https://github.com/camwin/resume
-  - title: pySSIDer
-    description: Wireless network scanning and analysis tool for WiFi site surveys and troubleshooting.
-    link: https://github.com/camwin/pySSIDer
+  - title: Open Source Analytics Engine
+    description: A high-performance, real-time analytics engine built with Go and Redis.
+    link: https://github.com/johndoe/analytics
 
 skills:
-  - Python, Ansible, Nautobot, Terraform IaC
-  - AWS & Azure Cloud Networking (VPC, VNet, Hybrid Connectivity)
-  - Cisco, Juniper & Whitebox (OcNOS)
-  - EBGP, VXLAN, WiFi 6/6E/7 & Cisco 9800
-  - Netbox, Docker, LibreNMS, Akvorado, Grafana, Kibana
-  - Git, GitHub, ChatOps & Desired-State Configuration
+  - Python, Go, Java, C++
+  - AWS, GCP, Kubernetes, Docker, Terraform
+  - PostgreSQL, Redis, MongoDB, Kafka
+  - Distributed Systems, Microservices, CI/CD, Agile Methodology
