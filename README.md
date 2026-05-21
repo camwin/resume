@@ -24,7 +24,7 @@ cd resume
 pip install pyyaml jinja2
 
 # 3. Edit your info
-#    → Open and update resume.yml
+#    → create resume.yml
 
 # 4. Generate the resume
 python generate.py
