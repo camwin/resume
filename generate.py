@@ -1,7 +1,7 @@
 import yaml
 from jinja2 import Template
 import datetime
-import webbrowser
+from weasyprint import HTML, CSS
 
 # Load data
 with open('resume.yml', 'r', encoding='utf-8') as f:
@@ -17,7 +17,17 @@ html_template = """
     <title>{{ name }} - Resume</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-        body { font-family: 'Inter', Arial, sans-serif; margin: 0; padding: 25px; line-height: 1.35; color: #222; max-width: 1000px; margin: 0 auto; font-size: 15px; }
+        
+        body { 
+            font-family: 'Inter', Arial, sans-serif; 
+            margin: 0; 
+            padding: 25px; 
+            line-height: 1.35; 
+            color: #222; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            font-size: 15px; 
+        }
         .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
         .header-left h1 { margin: 0 0 4px 0; font-size: 2.1em; }
         .header-left .title { color: #0d6efd; font-weight: 500; }
@@ -29,10 +39,10 @@ html_template = """
         .section { margin-bottom: 22px; }
         .project { margin-bottom: 16px; }
         .footer { text-align: center; margin-top: 40px; font-size: 0.8em; color: #666; }
-        @media print { body { padding: 20px; } .no-print { display: none; } }
     </style>
 </head>
 <body>
+    <!-- ... same HTML body as before ... -->
     <div class="header">
         <div class="header-left">
             <h1>{{ name }}</h1>
@@ -82,7 +92,7 @@ html_template = """
     <h2>Skills</h2>
     <ul>{% for skill in skills %}<li>{{ skill }}</li>{% endfor %}</ul>
 
-    <div class="footer no-print">
+    <div class="footer">
         Generated {{ year }} • Simple Python + YAML Resume Tool
     </div>
 </body>
@@ -90,10 +100,9 @@ html_template = """
 """
 
 template = Template(html_template)
-output = template.render(data)
+html_content = template.render(data)
 
-with open('index.html', 'w', encoding='utf-8') as f:
-    f.write(output)
+# Generate PDF directly
+HTML(string=html_content, base_url='.').write_pdf('Cameron_Paulk_Resume.pdf')
 
-print("✅ index.html generated!")
-webbrowser.open('index.html')
+print("✅ PDF generated successfully with selectable text!")
