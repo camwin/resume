@@ -8,9 +8,7 @@ Built because every existing resume tool was bloated, full of AI spam, or had br
 
 ### Features
 - One YAML file = your entire resume
-- Modern, professional HTML output with headshot support
-- Perfect PDF via browser print (Ctrl + P)
-- Fully customizable and no-bullshit
+- Modern, professional output with headshot support
 - GitHub Pages ready
 
 ### Quick Start
@@ -21,13 +19,15 @@ git clone https://github.com/camwin/resume.git
 cd resume
 
 # 2. Install dependencies
-pip install pyyaml jinja2
-
+pip install pyyaml jinja2 weasyprint
+ 
 # 3. Edit your info
-#    → create resume.yml
+#    → create your own resume.yml
 
 # 4. Generate the resume
 python generate.py
+
+pdf should be there in the same directory. 
 
 ```
 ### Github.io resume hosting
